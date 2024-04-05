@@ -10,11 +10,11 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary:
-          "bg-secondary rounded-lg hover:bg-blue_button transition-all duration-300",
+          "bg-secondary rounded-lg text-white hover:bg-blue_button transition-all duration-300",
         outline:
-          "border border-alternative bg-transparent hover:bg-blue_button duration-300 transition-all hover:text-slate-900 dark:border-slate-800 dark:bg-slate-950 dark:hover:bg-slate-800 dark:hover:text-slate-50",
+          "border border-alternative text-white bg-transparent hover:bg-blue_button duration-300 transition-all dark:border-slate-800 dark:bg-slate-950 dark:hover:bg-slate-800 dark:hover:text-slate-50",
         secondary:
-          "bg-slate-100 text-slate-900 hover:bg-slate-100/80 dark:bg-slate-800 dark:text-slate-50 dark:hover:bg-slate-800/80",
+          "bg-blue_button text-white hover:bg-secondary transition-all duration-300",
         default:
           "bg-slate-900 text-slate-50 hover:bg-slate-900/90 dark:bg-slate-50 dark:text-slate-900 dark:hover:bg-slate-50/90",
         destructive:

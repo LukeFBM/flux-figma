@@ -19,6 +19,7 @@ export default function Home() {
         <CallToAction />
         <Footer />
       </Container>
+      <div className="bg-gradient-to-r from-blue_button to-alternative w-full h-4" />
     </main>
   );
 }

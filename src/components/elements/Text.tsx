@@ -22,7 +22,7 @@ const Text = (props: TextProps) => {
   return (
     <Component
       href={href}
-      className={cn("text-white", variant, className, {
+      className={cn(variant, className, {
         "font-secondary": fontType === "secondary",
       })}
     >

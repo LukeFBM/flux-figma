@@ -12,7 +12,7 @@ const DoubleHero = () => {
 
         <HeroHalfSection
           body="Use our built-in analytics dashboard to pull valuable insights and
-        monitor the value of your Krypto portfolio over time."
+          monitor the value of your Krypto portfolio over time."
           buttonText="VIEW OUR PRICING"
           title="Built-In Analytics To Track Your Nfts"
           topTitle="ANALYTICS"

@@ -12,7 +12,7 @@ const Logos = () => {
       <div>
         <Text
           variant="text-md"
-          className="font-regular font-primary tracking-[7px]"
+          className="text-white font-regular font-primary tracking-[7px]"
         >
           FEATURED ON
         </Text>

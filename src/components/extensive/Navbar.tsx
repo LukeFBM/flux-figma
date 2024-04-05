@@ -9,7 +9,7 @@ const Navbar = () => {
       <div>
         <Text
           variant="text-md"
-          className="font-secondary font-lg tracking-widest"
+          className="font-secondary text-white font-lg tracking-widest"
         >
           KRYPTO
         </Text>
@@ -21,7 +21,7 @@ const Navbar = () => {
               <li>
                 <Text
                   variant="text-sm"
-                  className="font-secondary font-md hover:underline hover:text-alternative cursor-pointer underline-offset-4 transition-all duration-300 tracking-wide"
+                  className="font-secondary text-white font-md hover:underline hover:text-alternative cursor-pointer underline-offset-4 transition-all duration-300 tracking-wide"
                 >
                   {navlink}
                 </Text>

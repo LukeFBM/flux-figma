@@ -19,7 +19,7 @@ const HeroHalfSection = ({
     <div className="flex flex-col justify-start">
       <Text
         variant="text-md"
-        className="font-primary font-base tracking-[5px] ml-[5px]"
+        className="text-white font-primary font-base tracking-[5px] ml-[5px]"
       >
         {topTitle}
       </Text>
@@ -29,7 +29,10 @@ const HeroHalfSection = ({
       >
         {title}
       </Text>
-      <Text variant="text-md" className="font-base max-w-[350px] mt-4">
+      <Text
+        variant="text-md"
+        className="text-white font-base max-w-[350px] mt-4"
+      >
         {body}
       </Text>
       <Button variant="primary" size="lg" className="w-1/2 mt-8">

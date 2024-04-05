@@ -14,7 +14,7 @@ const Hero = () => {
         >
           discover and collect rare NFTs
         </Text>
-        <Text variant="text-md" className="font-base max-w-[350px]">
+        <Text variant="text-md" className="text-white font-base max-w-[350px]">
           The most secure marketplace for buying and selling unique crypto
           assets.
         </Text>

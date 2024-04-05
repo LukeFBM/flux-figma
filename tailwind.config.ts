@@ -44,6 +44,7 @@ const config = {
         alternative: "#AAD9D9",
         blue_button: "#1F1F7C",
         logos_bg: "#6358BD",
+        bg_cards: "#181C50",
       },
       keyframes: {
         "accordion-down": {
